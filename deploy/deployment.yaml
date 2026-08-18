@@ -18,7 +18,7 @@ spec:
         app: accounts
     spec:
       containers:
-      - image: us.icr.io/sn-labs-sd19970326/accounts:1
+      - image: IMAGE_NAME_HERE
         name: accounts
         ports:
         - containerPort: 8080
